@@ -217,7 +217,12 @@ whatsapp button style
 }
 
 .whatsapp-icon {
-	margin-top:16px;
+    margin-top:15px;
+    width: 40px;
+    height: 40px;
+    bottom: 20px;
+    right: 10px;
+    font-size: 22px; 
 }
 /* for mobile */
 @media screen and (max-width: 767px){
