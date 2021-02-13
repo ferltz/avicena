@@ -98,8 +98,7 @@ h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5 {
     letter-spacing: 0;
     font-weight: normal;
     position: relative;
@@ -107,6 +106,17 @@ h6 {
     font-weight: normal;
     line-height: 120% !important;
     color: #1f1f1f;
+    margin: 0
+}
+
+h6 {
+    letter-spacing: 0;
+    font-weight: normal;
+    position: relative;
+    padding: 0 0 10px 0;
+    font-weight: normal;
+    line-height: 120% !important;
+    color: #faf5f5;
     margin: 0
 }
 
@@ -636,6 +646,16 @@ li.social-links a {
     PORTFOLIO
 -------------------------------------------------------------------*/
 
+.block {
+    width: 555px;
+    height: 230px;
+    overflow: hidden;
+  }
+  
+  .responsive-img {
+    min-width: 100%;
+    min-height: 100%;
+  }
 .item-h2,
 .item-h1 {
     height: 100% !important;
